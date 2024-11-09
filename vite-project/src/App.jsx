@@ -5,12 +5,12 @@ function App() {
   let [counter, setCounter] = useState(0);
 
   function add() {
-    console.log(counter, "counter");
+    if (counter>=20) return;
     setCounter(counter + 1);
   }
 
   function sub() {
-    console.log(counter, "counter");
+    if (counter <= 0) return;
     setCounter(counter - 1);
   }
 
