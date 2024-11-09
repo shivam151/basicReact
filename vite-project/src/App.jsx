@@ -16,6 +16,7 @@ function App() {
 
   return (
     <>
+    <h1 className='bg-green-400'>this talwind Test</h1>
       <h1>Counter Value: {counter}</h1>  
 
       <button onClick={add}>Add</button>
